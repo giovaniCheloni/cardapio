@@ -220,7 +220,10 @@
     <!--FIM MENU-->
 
     <!--MODAL CART-->
-    <div class="bg-black/60 w-full h-full fixed top-0 z-[99] items-center justify-center hidden">
+    <div 
+        class="bg-black/60 w-full h-full fixed top-0 z-[99] items-center justify-center hidden"
+        id="cart-modal"
+    >
         
         <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
             <h2 class="text-red-500 font-bold text-center">MEU CARRINHO</h2>
@@ -253,7 +256,7 @@
     <footer class="w-full bg-red-500 py-2 fixed bottom-0 z-40 flex items-center justify-center">
         <button 
             class="flex items-center gap-2 text-white"
-            id="cart-count">
+            id="cart-btn">
 
             (<span id="cart-count">0</span>)
             Veja meu carrinho
@@ -261,6 +264,8 @@
         </button>
     </footer>
     <!--FIM BUTTON CART FOOTER-->
+
+    <script src="script.js"></script>
 
 
 </body>
