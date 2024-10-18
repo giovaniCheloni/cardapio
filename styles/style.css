@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body{
+    background-color: #f6f7f8;
+}
+
+input, button, select {
+    appearance: none; /* Remove a aparência padrão */
+    -webkit-appearance: none; /* Para navegadores baseados em WebKit */
+    -moz-appearance: none; /* Para navegadores Firefox */
+}
